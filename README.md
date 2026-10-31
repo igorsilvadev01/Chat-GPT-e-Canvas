@@ -4,7 +4,7 @@ Dashboard de vendas em HTML, CSS e JavaScript, desenvolvido para o desafio da DI
 
 ## Acessar a dashboard
 
-Após habilitar GitHub Pages, inserir aqui: `https://SEU-USUARIO.github.io/porsche-sales-dashboard/`.
+[Abrir Porsche Sales Intelligence](https://igorsilvadev01.github.io/Chat-GPT-e-Canvas/).
 
 ## Perguntas de negócio
 
@@ -41,13 +41,9 @@ Valores de ano, preço e quilometragem foram convertidos para números; datas co
 
 ChatGPT para análise e geração do projeto (alternativa ao antigo Canvas); Python e `artifact_tool` para extrair campos sanitizados; HTML/CSS/JavaScript para a dashboard. Não foi usado Claude Code nem um agente autônomo com skill. Esse segundo fluxo pode ser adicionado posteriormente para comparação.
 
-## Como publicar
+## Publicação
 
-1. Crie um repositório público chamado `porsche-sales-dashboard`.
-2. Faça upload de `index.html` e `README.md` na raiz.
-3. No GitHub, acesse **Settings → Pages → Build and deployment → Deploy from a branch**, escolha `main` e `/ (root)` e salve.
-4. Acesse `https://SEU-USUARIO.github.io/porsche-sales-dashboard/` e substitua o link de exemplo acima.
-5. Adicione ao README uma captura da dashboard e outra com filtros aplicados. Verifique o link antes de enviar a URL do **repositório** à DIO.
+O GitHub Actions publica automaticamente `index.html` no GitHub Pages a cada atualização da branch `main`. O dashboard funciona totalmente no navegador, com dados sanitizados incorporados, filtros, busca e exportação CSV.
 
 ## Observação
 
